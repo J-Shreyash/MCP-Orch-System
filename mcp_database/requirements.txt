@@ -1,0 +1,21 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-dotenv==1.0.0
+pydantic==2.5.3
+mysql-connector-python==8.3.0
+chromadb==0.4.22
+sentence-transformers==2.3.1
+numpy==1.26.3
+python-multipart==0.0.6
+
+# BM25 Keyword Search
+rank-bm25>=0.2.2
+
+# Neo4j Graph Database
+neo4j>=5.15.0
+
+# Entity Extraction (NER)
+spacy>=3.7.0
+
+# OpenAI for relationship extraction
+openai>=1.12.0
